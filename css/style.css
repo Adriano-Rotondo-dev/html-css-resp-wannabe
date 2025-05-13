@@ -132,20 +132,20 @@ img {
 @media screen and (max-width:480px) {
     
    .container {
-    width: 100%;
-    padding: 0 90px;
-    box-sizing: border-box;
+        width: 100%;
+        padding: 0 90px;
+        box-sizing: border-box;
     }
     .site-header{
         margin-top: 0;
     }
 
    .row {
-    flex-direction: column;
-    align-items: center;    
+        flex-direction: column;
+        align-items: center;    
     }
     h1 {
-    font-size: 1.8rem;    
+        font-size: 1.8rem;    
     }
     h2 {    
         font-size:1.6rem; 
@@ -161,11 +161,12 @@ img {
         font-size:1rem;
     }
     .col, .lessons .col, 
-    .steps .col, .why-us .col-left,
+    .steps .col, 
+    .why-us .col-left,
     .why-us .col-right {
-    width: 100%;
-    padding:0;
-    margin-bottom:2rem;
+        width: 100%;
+        padding:0;
+        margin-bottom:2rem;
     }
     .col img{
         width: 110%;
@@ -182,9 +183,9 @@ img {
  /***** RESPONSIVE TABLET *****/
  @media screen and (max-width:768px){
     .container {
-    width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
     }    
  }
 
