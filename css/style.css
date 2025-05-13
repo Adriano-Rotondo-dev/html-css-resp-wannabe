@@ -127,8 +127,9 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-
- @media screen and (max-width:480px) {
+ 
+/***** RESPONSIVE MOBILE *****/
+@media screen and (max-width:480px) {
     
    .container {
     width: 100%;
@@ -176,4 +177,13 @@ img {
         background: #222222;
         margin:0;
     }
+ }
+
+ /***** RESPONSIVE TABLET *****/
+ @media screen and (max-width:768px){
+    .container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    }    
  }
