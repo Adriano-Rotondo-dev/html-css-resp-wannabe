@@ -127,7 +127,7 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
- 
+
 /***** RESPONSIVE MOBILE *****/
 @media screen and (max-width:480px) {
     
@@ -187,3 +187,21 @@ img {
     box-sizing: border-box;
     }    
  }
+
+/**** BONUS *****/
+@media screen and (min-width:768px){
+    .container{
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width:1160px) {
+    .container{
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    
+}
